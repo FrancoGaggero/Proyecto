@@ -9,6 +9,7 @@ public class Main {
 		
 		LocalDate hoy = LocalDate.now();
 		JOptionPane.showMessageDialog(null, hoy);
+		String nombre= JOptionPane.showInputDialog("Ingrese tu nombre");
 		
 		
 	}
